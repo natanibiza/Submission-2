@@ -1,0 +1,67 @@
+.main-visual-element {
+    flex-direction: row;
+}
+
+.left-screen {
+}
+
+.right-screen {
+}
+
+.logo {
+}
+
+.buttons {
+    flex-direction: column;
+    position: relative;
+}
+
+.footer {
+}
+
+.jugar {
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    margin-right: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jugar:hover {
+    background-color: rgba(255, 207, 154, 0);
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: rgb(255, 248, 206);
+    -unity-text-align: middle-center;
+    font-size: 55px;
+    -unity-font-definition: initial;
+    -unity-font: url("project://database/Assets/fonts/Goligan.otf?fileID=12800000&guid=aa33071f3a3ba664fa8ce076f9fc622e&type=3#Goligan");
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 0;
+    max-width: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    min-width: 0;
+    top: auto;
+    flex-shrink: 0;
+    -unity-slice-scale: 1px;
+    align-self: auto;
+    justify-content: flex-start;
+    flex-grow: 0;
+    flex-direction: column;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    -unity-text-outline-width: 0;
+    -unity-font-style: bold;
+}
